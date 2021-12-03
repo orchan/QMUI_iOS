@@ -94,7 +94,7 @@
 
 - (void)updateAppearance {
     self.button.titleLabel.font = self.menuView.itemTitleFont;
-    [self.button setTitleColor:self.menuView.itemTitleColor forState:UIControlStateNormal];
+//    [self.button setTitleColor:self.menuView.itemTitleColor forState:UIControlStateNormal];
     self.button.contentEdgeInsets = UIEdgeInsetsMake(0, self.menuView.padding.left, 0, self.menuView.padding.right);
 }
 
